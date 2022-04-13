@@ -10,10 +10,12 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         android:layout_marginBottom="50sp"
-        android:textSize="30sp"
         android:text="@string/_0"
         android:textDirection="rtl"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/teclado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -220,7 +222,7 @@
             app:layout_constraintEnd_toStartOf="@id/button_none"
             app:layout_constraintStart_toEndOf="@+id/button_dot" />
 
-        <Button
+        <View
             android:id="@+id/button_none"
             android:layout_width="75dp"
             android:layout_height="75dp"
